@@ -95,7 +95,7 @@ void chassis_task(void const *argument)
 			
 			if (prc_info->mouse.r == 1) {
                 wz =  (float) prc_info->mouse.x / 500 * MAX_CHASSIS_VW_SPEED;
-                wz =  (float) wz / 3 * shift; /*movement relative to gimbal
+                wz =  (float) wz / 3 * shift; /*movement relative to gimbal*/
 			}
 			else {
                 wz = 0;
