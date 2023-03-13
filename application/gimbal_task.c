@@ -95,7 +95,7 @@ void gimbal_task(void const *argument)
 		//HAL_GPIO_WritePin(LED_GPIO_Port, LD1_Pin, GPIO_PIN_RESET);
 		if(prc_info->mouse.r==1) {//Determine whether user holds the right button,
             if(prc_info->kb.key_code & KEY_SHIFT) == KEY_SHIFT) {
-                yaw_delta = -((float)prc_info->mouse.x + 1.0) * 0.020f; /*Test 1.0 value thought to be integral to float
+                yaw_delta = -((float)prc_info->mouse.x + 1.0) * 0.020f; /*Test 1.0 value thought to be integral to float*/
             }
 
             else {
