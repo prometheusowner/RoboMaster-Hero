@@ -1,0 +1,4 @@
+Cannot generate into D:\Hero\Hero_2022_pwm-main\hero_v2022-reel_pwm_mode
+It is already used for project D:\Robomaster\Code Repository\alex_code_test\infantry-code-1
+
+Please either delete it manually or select another generation directory
